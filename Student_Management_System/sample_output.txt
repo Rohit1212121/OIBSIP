@@ -1,0 +1,61 @@
+SAMPLE RUN — STUDENT MANAGEMENT SYSTEM
+========================================
+
+--- SAMPLE INPUT (what the user types) ---
+Enter Student Name: Riya Sharma
+Enter Age: 20
+Enter College Name: Delhi Public College
+Enter Course Name: BBA
+Enter Roll Number: BBA2026045
+Enter marks for Subject 1: 78
+Enter marks for Subject 2: 85
+Enter marks for Subject 3: 42
+Enter marks for Subject 4: 91
+Enter marks for Subject 5: 30
+Do you want to enter another student's record? (y/n): n
+
+--- SAMPLE OUTPUT (what the program displays) ---
+=============================================
+   WELCOME TO STUDENT MANAGEMENT SYSTEM
+=============================================
+
+----- ENTER STUDENT DETAILS -----
+
+----- ENTER MARKS (out of 100) -----
+
+=============================================
+           STUDENT REPORT CARD
+=============================================
+Name         : Riya Sharma
+Age          : 20
+College      : Delhi Public College
+Course       : BBA
+Roll Number  : BBA2026045
+---------------------------------------------
+SUBJECT-WISE MARKS
+  Subject 1 : 78 / 100
+  Subject 2 : 85 / 100
+  Subject 3 : 42 / 100
+  Subject 4 : 91 / 100
+  Subject 5 : 30 / 100
+---------------------------------------------
+Total Marks  : 326 / 500
+Percentage   : 65.2%
+Result       : Fail
+Grade        : F
+=============================================
+
+Thank you for using the Student Management System. Goodbye!
+
+NOTE: Even though the percentage (65.2%) would normally correspond to
+grade "C", the student FAILS overall because Subject 5 scored only 30,
+which is below the passing mark of 33. Per the rules, one failing
+subject makes the overall result "Fail" and the grade automatically
+becomes "F".
+
+--- A SECOND EXAMPLE WHERE THE STUDENT PASSES ---
+Marks entered: 78, 85, 60, 91, 70
+Total Marks  : 384 / 500
+Percentage   : 76.8%
+Result       : Pass
+Grade        : B
